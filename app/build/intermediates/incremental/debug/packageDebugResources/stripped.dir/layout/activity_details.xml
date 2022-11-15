@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details"
+    android:background="#D2C3ED">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="ABOUT US"
+                android:textColor="#573503"
+                android:textSize="40dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#F3A6BF"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:text="Codecademy Chapters are the perfect place to collaborate with fellow learners virtually or in-person. One such chapter is VIT B Chapter where we learn and grow together.
+                  Our events have included everything from study groups and focus sessions to fireside chats and meet and greets, how-tos diving into topics like web development or specific languages, group project brainstorms, hackathons, and more."
+                android:textColor="#0C2EE6"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="PAST EVENTS"
+                android:textColor="#573503"
+                android:textSize="40dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#E4A793"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:text="We have hosted various events such as Treasure hunt, hackathons, bootcamps etc.
+The most famous event of VIT B Chapter is the WEB DEV Bootcamp in which more than 500 students participated.
+It was conducted in online mode."
+                android:textColor="#0C2EE6"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="OUR ARCHIVE"
+                android:textColor="#573503"
+                android:textSize="40dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="482dp"
+                android:layout_gravity="top"
+                android:paddingTop="0dp"
+                app:srcCompat="@drawable/maxresdefault__1_" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                app:srcCompat="@drawable/bookclub_september" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/codecademy_positivity_circle__1_" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="@color/white"
+                android:gravity="left"
+                android:paddingTop="10dp"
+                android:text="CONTACT US"
+                android:paddingLeft="2dp"
+                android:textColor="#573503"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="To start your journey in coding join codecademy chapter
+now!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingTop="10dp">
+
+
+            </TextView>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="JOIN A CHAPTER"
+
+                android:textAlignment="center">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

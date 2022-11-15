@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.codecademy.app-mergeDebugResources-33:/layout/activity_details.xml",
+        "source": "com.example.codecademy.app-main-36:/layout/activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-mergeDebugResources-33:\\layout\\activity_registeration.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-main-36:\\layout\\activity_registeration.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-mergeDebugResources-33:\\layout\\activity_details.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.3.3\\com.example.codecademy.app-main-36:\\layout\\activity_details.xml"
+    }
+]
